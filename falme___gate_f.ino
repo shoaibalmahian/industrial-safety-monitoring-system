@@ -82,11 +82,14 @@ Serial.println(out);
 lcd.setCursor(0,0);
 
 lcd.print(count);
+lcd.print("  ENTRY");
 
 
 lcd.setCursor(0,1);
 
 lcd.print (out);
+lcd.print ("   EXIT");
+
 
 delay(2500); 
 
